@@ -1,6 +1,6 @@
-#### TensorFlow ```saved_model```ni ```tflite``` modelga konvertatsiya qilish va Rasberry PI qurilmasini Hikvision kamerasiga ulagan holda modelni streamlitda deploy qilish dasturi.
+### TensorFlow ```saved_model```ni ```tflite``` modelga konvertatsiya qilish va Rasberry PI qurilmasini Hikvision kamerasiga ulagan holda modelni streamlitda deploy qilish dasturi.
 
-##### **Requirements:**
+#### **Requirements:**
 ```python
  pip install tensorflow[and-cuda]
 ```
