@@ -35,3 +35,10 @@ with open('model.tflite', 'wb') as f:
 
 ![sadp1](https://github.com/MisterFoziljon/Deploy-TF-Lite-model-with-RasberryPI-device-using-hikvision-camera/blob/main/images/sadp1.png)
 
+
+### Kodni RasberryPI qurilmasidagi terminal yordamida ishga tushirish uchun:
+```shell
+ user@User:~$ streamlit run main.py
+ ```
+
+Moldelni ushbu [link](https://drive.google.com/drive/folders/1lHszpAS8PqkCZjJ2wV212AUoq_LkWxR0?usp=sharing) yordamida yuklab oling.
