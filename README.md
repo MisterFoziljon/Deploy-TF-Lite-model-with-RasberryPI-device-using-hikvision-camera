@@ -19,5 +19,7 @@ Kamerada dastur yordamida foydalanish uchun user name, password, ip address va r
 ```python
 camera = f"rtsp://{user}:{password}@{ip_address}:{rtsp}/h264/ch1/main/av_stream"
 ```
+user va password SADP dagi login va parol hisoblanadi.
 
-
+```ip_address```ni quyidagi bo'limdan olishingiz mumkin:
+![sadp2]()
