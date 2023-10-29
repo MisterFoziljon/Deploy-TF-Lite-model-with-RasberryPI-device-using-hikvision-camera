@@ -13,3 +13,4 @@ tflite_model = converter.convert()
 with open('model.tflite', 'wb') as f:
     f.write(tflite_model)
 ```
+Kameraning kerakli konfiguratsiyalarini olish uchun [SADP](https://www.hikvision.com/en/support/tools/hitools/clea8b3e4ea7da90a9/) dasturini yuklab oling.
