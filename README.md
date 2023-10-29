@@ -3,6 +3,8 @@
 ### **Requirements:**
 ```python
  pip install tensorflow[and-cuda]
+ pip install steamlit
+ pip install opencv-python
 ```
 
 ### **```saved_model``` ni ```tflite``` modelga konvertatsiya qilish:**
