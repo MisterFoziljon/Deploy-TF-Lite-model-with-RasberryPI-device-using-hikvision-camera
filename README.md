@@ -17,19 +17,19 @@ with open('model.tflite', 'wb') as f:
 
 ### **Kamerani kerakli konfiguratsiyalarini sozlash:**
 
-Kameraning kerakli konfiguratsiyalarini olish uchun [SADP](https://www.hikvision.com/en/support/tools/hitools/clea8b3e4ea7da90a9/) dasturini yuklab oling.
+* Kameraning kerakli konfiguratsiyalarini olish uchun [SADP](https://www.hikvision.com/en/support/tools/hitools/clea8b3e4ea7da90a9/) dasturini yuklab oling.
 
-Kamerada dastur yordamida foydalanish uchun user name, password, ip address va rtsp port kerak bo'ladi.
-```python
-camera = f"rtsp://{user}:{password}@{ip_address}:{rtsp}/h264/ch1/main/av_stream"
-```
-user va password SADP dagi login va parol hisoblanadi.
+* Kamerada dastur yordamida foydalanish uchun user name, password, ip address va rtsp port kerak bo'ladi.
+ ```python
+ camera = f"rtsp://{user}:{password}@{ip_address}:{rtsp}/h264/ch1/main/av_stream"
+ ```
+* user va password SADP dagi login va parol hisoblanadi.
 
-```ip_address```ni quyidagi bo'limdan olishingiz mumkin:
+* ```ip_address```ni quyidagi bo'limdan olishingiz mumkin:
 
 ![sadp2](https://github.com/MisterFoziljon/Deploy-TF-Lite-model-with-RasberryPI-device-using-hikvision-camera/blob/main/images/sadp2.png)
 
-```rtsp port```ni quyidagi bo'limdan olishingiz mumkin:
+* ```rtsp port```ni quyidagi bo'limdan olishingiz mumkin:
 
 ![sadp1](https://github.com/MisterFoziljon/Deploy-TF-Lite-model-with-RasberryPI-device-using-hikvision-camera/blob/main/images/sadp1.png)
 
