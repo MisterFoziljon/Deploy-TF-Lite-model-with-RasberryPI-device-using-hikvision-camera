@@ -22,4 +22,4 @@ camera = f"rtsp://{user}:{password}@{ip_address}:{rtsp}/h264/ch1/main/av_stream"
 user va password SADP dagi login va parol hisoblanadi.
 
 ```ip_address```ni quyidagi bo'limdan olishingiz mumkin:
-![sadp2]()
+![sadp2](https://github.com/MisterFoziljon/Deploy-TF-Lite-model-with-RasberryPI-device-using-hikvision-camera/blob/main/images/sadp2.png)
