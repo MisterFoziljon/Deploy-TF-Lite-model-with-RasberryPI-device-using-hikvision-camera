@@ -15,6 +15,9 @@ with open('model.tflite', 'wb') as f:
 ```
 Kameraning kerakli konfiguratsiyalarini olish uchun [SADP](https://www.hikvision.com/en/support/tools/hitools/clea8b3e4ea7da90a9/) dasturini yuklab oling.
 
-
+Kamerada dastur yordamida foydalanish uchun user name, password, ip address va rtsp port kerak bo'ladi.
+```python
+camera = f"rtsp://{user}:{password}@{ip_address}:{rtsp}/h264/ch1/main/av_stream"
+```
 
 
